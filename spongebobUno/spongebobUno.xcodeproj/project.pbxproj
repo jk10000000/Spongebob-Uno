@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034687FF29B12D7D0011B7E0 /* DeckDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034687FE29B12D7D0011B7E0 /* DeckDisplay.swift */; };
+		037F5CDC29B11B01006BE94C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037F5CDB29B11B01006BE94C /* Player.swift */; };
+		0383DBC229C1089C009CF29E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0383DBC129C1089C009CF29E /* GameView.swift */; };
+		0390B0AD29B2630600D6068B /* PlayerTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0390B0AC29B2630600D6068B /* PlayerTurn.swift */; };
+		0390B0B129B26B2600D6068B /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0390B0B029B26B2600D6068B /* MainMenu.swift */; };
+		03D16F4A29AD59F4001C29EF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D16F4929AD59F4001C29EF /* CardView.swift */; };
+		03D28DEF29C2842B00DFDD1E /* GameEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D28DEE29C2842B00DFDD1E /* GameEndView.swift */; };
+		03FFB96629A706F000BBCF22 /* spongebobUnoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFB96529A706F000BBCF22 /* spongebobUnoApp.swift */; };
+		03FFB96829A706F100BBCF22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFB96729A706F100BBCF22 /* ContentView.swift */; };
+		03FFB96A29A706F200BBCF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FFB96929A706F200BBCF22 /* Assets.xcassets */; };
+		03FFB96D29A706F200BBCF22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FFB96C29A706F200BBCF22 /* Preview Assets.xcassets */; };
+		03FFB97729A706F200BBCF22 /* spongebobUnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFB97629A706F200BBCF22 /* spongebobUnoTests.swift */; };
+		03FFB98129A706F200BBCF22 /* spongebobUnoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFB98029A706F200BBCF22 /* spongebobUnoUITests.swift */; };
+		03FFB98329A706F200BBCF22 /* spongebobUnoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFB98229A706F200BBCF22 /* spongebobUnoUITestsLaunchTests.swift */; };
+		03FFB99029A7139800BBCF22 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFB98F29A7139800BBCF22 /* Cards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FFB97329A706F200BBCF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FFB95A29A706F000BBCF22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FFB96129A706F000BBCF22;
+			remoteInfo = spongebobUno;
+		};
+		03FFB97D29A706F200BBCF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FFB95A29A706F000BBCF22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FFB96129A706F000BBCF22;
+			remoteInfo = spongebobUno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034687FE29B12D7D0011B7E0 /* DeckDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckDisplay.swift; sourceTree = "<group>"; };
+		037F5CDB29B11B01006BE94C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0383DBC129C1089C009CF29E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0390B0AC29B2630600D6068B /* PlayerTurn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTurn.swift; sourceTree = "<group>"; };
+		0390B0B029B26B2600D6068B /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		03D16F4929AD59F4001C29EF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		03D28DEE29C2842B00DFDD1E /* GameEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndView.swift; sourceTree = "<group>"; };
+		03FFB96229A706F000BBCF22 /* spongebobUno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spongebobUno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FFB96529A706F000BBCF22 /* spongebobUnoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobUnoApp.swift; sourceTree = "<group>"; };
+		03FFB96729A706F100BBCF22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03FFB96929A706F200BBCF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FFB96C29A706F200BBCF22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03FFB97229A706F200BBCF22 /* spongebobUnoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spongebobUnoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FFB97629A706F200BBCF22 /* spongebobUnoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobUnoTests.swift; sourceTree = "<group>"; };
+		03FFB97C29A706F200BBCF22 /* spongebobUnoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spongebobUnoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FFB98029A706F200BBCF22 /* spongebobUnoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobUnoUITests.swift; sourceTree = "<group>"; };
+		03FFB98229A706F200BBCF22 /* spongebobUnoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobUnoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03FFB98F29A7139800BBCF22 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FFB95F29A706F000BBCF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFB96F29A706F200BBCF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFB97929A706F200BBCF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D28DF029C2843D00DFDD1E /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				0390B0B029B26B2600D6068B /* MainMenu.swift */,
+				0383DBC129C1089C009CF29E /* GameView.swift */,
+				03D28DEE29C2842B00DFDD1E /* GameEndView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		03D28DF129C2845200DFDD1E /* Deck and Card Display */ = {
+			isa = PBXGroup;
+			children = (
+				03D16F4929AD59F4001C29EF /* CardView.swift */,
+				034687FE29B12D7D0011B7E0 /* DeckDisplay.swift */,
+			);
+			path = "Deck and Card Display";
+			sourceTree = "<group>";
+		};
+		03E3AEB229B141AC0017E6BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03FFB98F29A7139800BBCF22 /* Cards.swift */,
+				037F5CDB29B11B01006BE94C /* Player.swift */,
+				0390B0AC29B2630600D6068B /* PlayerTurn.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		03FFB95929A706F000BBCF22 = {
+			isa = PBXGroup;
+			children = (
+				03FFB96429A706F000BBCF22 /* spongebobUno */,
+				03FFB97529A706F200BBCF22 /* spongebobUnoTests */,
+				03FFB97F29A706F200BBCF22 /* spongebobUnoUITests */,
+				03FFB96329A706F000BBCF22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03FFB96329A706F000BBCF22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FFB96229A706F000BBCF22 /* spongebobUno.app */,
+				03FFB97229A706F200BBCF22 /* spongebobUnoTests.xctest */,
+				03FFB97C29A706F200BBCF22 /* spongebobUnoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FFB96429A706F000BBCF22 /* spongebobUno */ = {
+			isa = PBXGroup;
+			children = (
+				03FFB96529A706F000BBCF22 /* spongebobUnoApp.swift */,
+				03FFB96729A706F100BBCF22 /* ContentView.swift */,
+				03D28DF029C2843D00DFDD1E /* Main Views */,
+				03D28DF129C2845200DFDD1E /* Deck and Card Display */,
+				03E3AEB229B141AC0017E6BA /* Classes */,
+				03FFB96929A706F200BBCF22 /* Assets.xcassets */,
+				03FFB96B29A706F200BBCF22 /* Preview Content */,
+			);
+			path = spongebobUno;
+			sourceTree = "<group>";
+		};
+		03FFB96B29A706F200BBCF22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03FFB96C29A706F200BBCF22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03FFB97529A706F200BBCF22 /* spongebobUnoTests */ = {
+			isa = PBXGroup;
+			children = (
+				03FFB97629A706F200BBCF22 /* spongebobUnoTests.swift */,
+			);
+			path = spongebobUnoTests;
+			sourceTree = "<group>";
+		};
+		03FFB97F29A706F200BBCF22 /* spongebobUnoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03FFB98029A706F200BBCF22 /* spongebobUnoUITests.swift */,
+				03FFB98229A706F200BBCF22 /* spongebobUnoUITestsLaunchTests.swift */,
+			);
+			path = spongebobUnoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FFB96129A706F000BBCF22 /* spongebobUno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FFB98629A706F200BBCF22 /* Build configuration list for PBXNativeTarget "spongebobUno" */;
+			buildPhases = (
+				03FFB95E29A706F000BBCF22 /* Sources */,
+				03FFB95F29A706F000BBCF22 /* Frameworks */,
+				03FFB96029A706F000BBCF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spongebobUno;
+			productName = spongebobUno;
+			productReference = 03FFB96229A706F000BBCF22 /* spongebobUno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03FFB97129A706F200BBCF22 /* spongebobUnoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FFB98929A706F200BBCF22 /* Build configuration list for PBXNativeTarget "spongebobUnoTests" */;
+			buildPhases = (
+				03FFB96E29A706F200BBCF22 /* Sources */,
+				03FFB96F29A706F200BBCF22 /* Frameworks */,
+				03FFB97029A706F200BBCF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FFB97429A706F200BBCF22 /* PBXTargetDependency */,
+			);
+			name = spongebobUnoTests;
+			productName = spongebobUnoTests;
+			productReference = 03FFB97229A706F200BBCF22 /* spongebobUnoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03FFB97B29A706F200BBCF22 /* spongebobUnoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FFB98C29A706F200BBCF22 /* Build configuration list for PBXNativeTarget "spongebobUnoUITests" */;
+			buildPhases = (
+				03FFB97829A706F200BBCF22 /* Sources */,
+				03FFB97929A706F200BBCF22 /* Frameworks */,
+				03FFB97A29A706F200BBCF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FFB97E29A706F200BBCF22 /* PBXTargetDependency */,
+			);
+			name = spongebobUnoUITests;
+			productName = spongebobUnoUITests;
+			productReference = 03FFB97C29A706F200BBCF22 /* spongebobUnoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FFB95A29A706F000BBCF22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					03FFB96129A706F000BBCF22 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03FFB97129A706F200BBCF22 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03FFB96129A706F000BBCF22;
+					};
+					03FFB97B29A706F200BBCF22 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03FFB96129A706F000BBCF22;
+					};
+				};
+			};
+			buildConfigurationList = 03FFB95D29A706F000BBCF22 /* Build configuration list for PBXProject "spongebobUno" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FFB95929A706F000BBCF22;
+			productRefGroup = 03FFB96329A706F000BBCF22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FFB96129A706F000BBCF22 /* spongebobUno */,
+				03FFB97129A706F200BBCF22 /* spongebobUnoTests */,
+				03FFB97B29A706F200BBCF22 /* spongebobUnoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FFB96029A706F000BBCF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFB96D29A706F200BBCF22 /* Preview Assets.xcassets in Resources */,
+				03FFB96A29A706F200BBCF22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFB97029A706F200BBCF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFB97A29A706F200BBCF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FFB95E29A706F000BBCF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFB99029A7139800BBCF22 /* Cards.swift in Sources */,
+				03FFB96829A706F100BBCF22 /* ContentView.swift in Sources */,
+				03D16F4A29AD59F4001C29EF /* CardView.swift in Sources */,
+				0390B0B129B26B2600D6068B /* MainMenu.swift in Sources */,
+				03D28DEF29C2842B00DFDD1E /* GameEndView.swift in Sources */,
+				0383DBC229C1089C009CF29E /* GameView.swift in Sources */,
+				034687FF29B12D7D0011B7E0 /* DeckDisplay.swift in Sources */,
+				0390B0AD29B2630600D6068B /* PlayerTurn.swift in Sources */,
+				037F5CDC29B11B01006BE94C /* Player.swift in Sources */,
+				03FFB96629A706F000BBCF22 /* spongebobUnoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFB96E29A706F200BBCF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFB97729A706F200BBCF22 /* spongebobUnoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFB97829A706F200BBCF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFB98129A706F200BBCF22 /* spongebobUnoUITests.swift in Sources */,
+				03FFB98329A706F200BBCF22 /* spongebobUnoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FFB97429A706F200BBCF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FFB96129A706F000BBCF22 /* spongebobUno */;
+			targetProxy = 03FFB97329A706F200BBCF22 /* PBXContainerItemProxy */;
+		};
+		03FFB97E29A706F200BBCF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FFB96129A706F000BBCF22 /* spongebobUno */;
+			targetProxy = 03FFB97D29A706F200BBCF22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03FFB98429A706F200BBCF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FFB98529A706F200BBCF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FFB98729A706F200BBCF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"spongebobUno/Preview Content\"";
+				DEVELOPMENT_TEAM = 2XVC69VFSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testcomp.spongebobUno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03FFB98829A706F200BBCF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"spongebobUno/Preview Content\"";
+				DEVELOPMENT_TEAM = 2XVC69VFSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testcomp.spongebobUno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03FFB98A29A706F200BBCF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVC69VFSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testcomp.spongebobUnoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spongebobUno.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spongebobUno";
+			};
+			name = Debug;
+		};
+		03FFB98B29A706F200BBCF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVC69VFSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testcomp.spongebobUnoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spongebobUno.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spongebobUno";
+			};
+			name = Release;
+		};
+		03FFB98D29A706F200BBCF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVC69VFSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testcomp.spongebobUnoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spongebobUno;
+			};
+			name = Debug;
+		};
+		03FFB98E29A706F200BBCF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVC69VFSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testcomp.spongebobUnoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spongebobUno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FFB95D29A706F000BBCF22 /* Build configuration list for PBXProject "spongebobUno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFB98429A706F200BBCF22 /* Debug */,
+				03FFB98529A706F200BBCF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FFB98629A706F200BBCF22 /* Build configuration list for PBXNativeTarget "spongebobUno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFB98729A706F200BBCF22 /* Debug */,
+				03FFB98829A706F200BBCF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FFB98929A706F200BBCF22 /* Build configuration list for PBXNativeTarget "spongebobUnoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFB98A29A706F200BBCF22 /* Debug */,
+				03FFB98B29A706F200BBCF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FFB98C29A706F200BBCF22 /* Build configuration list for PBXNativeTarget "spongebobUnoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFB98D29A706F200BBCF22 /* Debug */,
+				03FFB98E29A706F200BBCF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FFB95A29A706F000BBCF22 /* Project object */;
+}
